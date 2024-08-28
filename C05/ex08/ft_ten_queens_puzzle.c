@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
+// This is overcomplicated; you could just use indices from loops instead of y.
 typedef struct s_point
 {
     int x;
